@@ -15,7 +15,7 @@ Dataset : The 'product_sales_db.xlsx' file contains 3 tables:
 
 3. "customer": This table contains information about the customers who have placed orders, including their customer ID and name.
 
-# Objectives by the stakeholders
+# Objectives by the Stakeholders
 
 ## Objective 1:
 
@@ -29,8 +29,6 @@ For orders table:
 
 	- Substitute any empty values in the 'qty' column with the text 'Not Available'.
 
-
-
 For the products table:
 
 	- Remove all the extra leading and trailing spaces in product_name. (Hint: use TRIM() function)
@@ -38,8 +36,6 @@ For the products table:
 	- split the 'price (in Rs)' column at the '₹' symbol and extract the numerical values. 
 
 	  Rename the columns appropriately after completing this task.
-
-
 
 For the customer table:
 
@@ -49,10 +45,10 @@ For the customer table:
 
 ## Objective 2:
 
-1. Use the VLOOKUP() function to retrieve all the customer names that correspond to their respective 'customer_id' listed in the orders table.
+1. Retrieve all the customer names that correspond to their respective 'customer_id' listed in the orders table.
 
-2. Use the INDEX-MATCH() function to retrieve all the product names that correspond to their respective 'product_id' listed in the orders table.
+2. Retrieve all the product names that correspond to their respective 'product_id' listed in the orders table.
 
-3. Use XLOOKUP() to obtain the corresponding 'price (in Rs)' of the products listed in the orders table.
+3. Obtain the corresponding 'price (in Rs)' of the products listed in the orders table.
 
-4. Create a new column named "total_price" in the orders table that calculates the product of 'qty' and 'price (in INR)'# Excel-Analytics
+4. Calculate the product of 'qty' and 'price (in INR)'# Excel-Analytics
